@@ -1,0 +1,778 @@
+/*
+Theme Name: Avien Light
+Theme URI: http://themeofwp.com/downloads/avien-lite-free-wordpress-theme/
+Author: ThemeofWP.com
+Author URI: http://themeofwp.com
+Description: Avien Ultra Responsive WordPress Theme
+Version: 2.7
+Tags: white, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, flexible-header, custom-menu, featured-images, microformats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: avien-light
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Avien Light, like WordPress, is licensed under the GPL.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*		Main Styles
+--------------------------------------------------------------------------------------------------*/
+
+/*		Layouts
+--------------------------------------------------------------------------------------------------*/
+
+#boxed #header.navbar-fixed-top {
+	right: auto;
+	left: auto;
+}
+
+/*		Top Header
+--------------------------------------------------------------------------------------------------*/
+
+.topheader .contact {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.topheader .contact a {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.topheader .social {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.topheader .social a, #footer .social a {
+	padding-left:10px;
+	padding-right: 0;
+}
+
+/*		Images
+--------------------------------------------------------------------------------------------------*/
+
+/*		Headings
+--------------------------------------------------------------------------------------------------*/
+
+/*		Btn
+--------------------------------------------------------------------------------------------------*/
+
+.btn-xlg [class^="icon-"],
+.btn-xlg [class*=" icon-"] {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/*		Anchor Link
+--------------------------------------------------------------------------------------------------*/
+
+/*		iFrame
+--------------------------------------------------------------------------------------------------*/
+
+.iframe-container iframe,
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	right: 0;
+	left: auto;
+}
+
+/*		Edit button
+--------------------------------------------------------------------------------------------------*/
+
+/*		Post Format
+--------------------------------------------------------------------------------------------------*/
+.post-format {
+	float: right;
+}
+
+/*		Inputs and buttons
+--------------------------------------------------------------------------------------------------*/
+
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/*		WordPress Core
+--------------------------------------------------------------------------------------------------*/
+
+.alignleft {
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0px 0 20px 20px;
+}
+
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.gallery-caption {
+	right: 0;
+	text-align: right;
+	left: auto;
+}
+
+.gallery-caption:before {
+	right: 0;
+	left: auto;
+}
+
+/*		Team
+--------------------------------------------------------------------------------------------------*/
+
+#team .btn-facebook, #team .btn-twitter, #team .btn-google-plus, #team .btn-linkedin {
+	margin-left: 3px;
+	margin-right: auto;
+}
+
+#team .media .pull-right {
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+#team .team-img {
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+/***********************************************************************************
+
+Portfolio Filter Styling
+
+************************************************************************************/
+
+/* ------- */
+
+nav#filter li {
+	margin:0 5px 0 0;
+}
+
+/*		Portfolio Item
+--------------------------------------------------------------------------------------------------*/
+
+.portfolio-item .portfolio-desc {
+	right: 0;
+	left: auto;
+}
+
+/*		Services
+--------------------------------------------------------------------------------------------------*/
+
+/*		Blog Grid Item
+--------------------------------------------------------------------------------------------------*/
+
+.blog-item .blog-desc {
+	right: 0;
+	left: auto;
+}
+
+/*Homepage Blog Part*/
+
+#blog .blog-post.blog-large .post-format {
+	left: 20px;
+	right: auto;
+}
+
+#blog .blog-post.blog-media .entry-thumbnail {
+	margin: -15px -15px -15px 15px;
+}
+
+#blog .blog-post.blog-media .post-format {
+	left: -10px;
+	right: auto;
+}
+
+#blog .blog-post .entry-meta > span {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/*		Navigation
+--------------------------------------------------------------------------------------------------*/
+
+.navbar-header {
+	float: right;
+}
+
+.navbar > .container .navbar-brand {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/*		Logo
+--------------------------------------------------------------------------------------------------*/
+
+.navbar .brand-left {
+	float:left;
+}
+
+.navbar .navbar-main {
+	float: left;
+}
+
+.navbar .navbar-main li i {
+	padding-right: 7px;
+	padding-left: 0;
+}
+
+.dropdown li i {
+	float: left;
+	padding-right: 7px;
+	left: 20px;
+	right: auto;
+	padding-left: 0;
+}
+
+.navbar .navbar-right {
+	float: right;
+}
+
+.navbar .navbar-main > li {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+.navbar .navbar-main .dropdown-menu > li {
+	text-align:right;
+}
+
+.navbar .navbar-main .sub-menu .dropdown-menu {
+	right: 100%;
+	left: auto;
+}
+
+ul li span.menu-toggler {
+	left: 0;
+	right: auto;
+}
+
+ul {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/*		Timeline
+--------------------------------------------------------------------------------------------------*/
+
+.timeline:before {
+	right: 50%;
+	margin-right: -1.5px;
+	left: auto;
+	margin-left: auto;
+}
+
+.timeline > li > .timeline-panel {
+	float: right;
+}
+
+.timeline > li > .timeline-panel:before {
+	left: -15px;
+	border-right: 15px solid #ccc;
+	border-left: 0 solid #ccc;
+	right: auto;
+}
+
+.timeline > li > .timeline-panel:after {
+	left: -14px;
+	border-right: 14px solid #fff;
+	border-left: 0 solid #fff;
+	right: auto;
+}
+
+.timeline > li > .timeline-badge {
+	right: 50%;
+	margin-right: -25px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	left: auto;
+	margin-left: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+	float: left;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+	border-right-width: 0;
+	border-left-width: 15px;
+	right: -15px;
+	left: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+	border-right-width: 0;
+	border-left-width: 14px;
+	right: -14px;
+	left: auto;
+}
+
+/*		Toptop
+--------------------------------------------------------------------------------------------------*/
+#toTop {
+	left: 15px;
+	right: auto;
+}
+
+/*		404
+--------------------------------------------------------------------------------------------------*/
+
+/*		Footermain
+--------------------------------------------------------------------------------------------------*/
+
+#bottom li:before {
+	left: 0;
+	right: auto;
+}
+
+/*		Recent Portfolio
+--------------------------------------------------------------------------------------------------*/
+
+/*		Portfolio
+--------------------------------------------------------------------------------------------------*/
+.portfolio-items,
+.portfolio-filter {
+	margin: 0 0 20px -20px;
+}
+
+.portfolio-items > li {
+	float: right;
+}
+
+.portfolio-item .item-inner {
+	margin: 0 0 20px 20px;
+}
+
+.portfolio-item .overlay {
+	right: 0;
+	left: auto;
+}
+
+/*		Isotope Filtering
+--------------------------------------------------------------------------------------------------*/
+
+/*		Isotope CSS3 transitions
+--------------------------------------------------------------------------------------------------*/
+
+/*		disabling Isotope CSS3 transitions
+--------------------------------------------------------------------------------------------------*/
+
+/*		disable CSS transitions for containers with infinite scrolling
+--------------------------------------------------------------------------------------------------*/
+
+/*		Subitle
+--------------------------------------------------------------------------------------------------*/
+
+/*		Media
+--------------------------------------------------------------------------------------------------*/
+
+/*		Breadcrumbs
+--------------------------------------------------------------------------------------------------*/
+
+.raquo {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/*		Tag Clouds
+--------------------------------------------------------------------------------------------------*/
+
+/*		Modal
+--------------------------------------------------------------------------------------------------*/
+
+.modal#loginForm {
+	margin-right: -300px;
+	margin-left: auto;
+}
+
+.modal input[type="text"],
+.modal input[type="password"] {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.modal .icon-remove {
+	left: -5px;
+	right: auto;
+}
+
+.modal button {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.media-body:before {
+	float:right;
+}
+
+/*		Comments
+--------------------------------------------------------------------------------------------------*/
+
+/*Unordered Lists*/
+
+ul.arrow li::before,
+ul.arrow-double li::before,
+ul.tick li::before,
+ul.cross li::before,
+ul.star li::before,
+ul.rss li::before {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*		Posts
+--------------------------------------------------------------------------------------------------*/
+
+.pagination {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*		Woocommerce
+--------------------------------------------------------------------------------------------------*/
+
+.woocommerce form .form-row label.inline, .woocommerce-page form .form-row label.inline {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
+	margin-left: 1.8%;
+	margin-right: auto;
+}
+
+.woocommerce #content div.product div.thumbnails a.last, .woocommerce div.product div.thumbnails a.last, .woocommerce-page #content div.product div.thumbnails a.last, .woocommerce-page div.product div.thumbnails a.last {
+	margin-left: 1.8%;
+	margin-right: auto;
+}
+
+.woocommerce ul.products li.last, .woocommerce-page ul.products li.last {
+	margin: 0 0 2.992em 3.8%;
+}
+
+/*		Custom Login for Top Header
+--------------------------------------------------------------------------------------------------*/
+form#login {
+	right: 50%;
+	margin-right: -200px;
+	left: auto;
+	margin-left: auto;
+}
+
+form#login input#username,
+form#login input#password {
+	padding: 10px 13px 10px 10px;
+}
+
+form#login input.submit_button {
+	float: left;
+}
+
+form#login a.close {
+	left: 15px;
+	right: auto;
+}
+
+form#login a.lost {
+	float: right;
+}
+
+/*		Widgets
+--------------------------------------------------------------------------------------------------*/
+
+.widget h3::before, .site-content .widgettitle::before {
+	right: 0;
+	margin-right: 0;
+	left: auto;
+	margin-left: auto;
+}
+
+li.rpwe-clearfix a {
+	margin-right: 0px !important;
+	margin-left: auto;
+}
+
+/*		bbPress
+--------------------------------------------------------------------------------------------------*/
+
+.bbp-author-avatar {
+	float:right;
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.topic .bbp-author-avatar {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+/*		Footer
+--------------------------------------------------------------------------------------------------*/
+
+#footer ul > li {
+	margin-left: 15px;
+	margin-right: auto;
+}
+
+/*		Flickr Widget
+--------------------------------------------------------------------------------------------------*/
+#flickr_wrapper img, .widget-area .portfolio-img {
+	float: right;
+}
+
+.flickr_badge_image {
+	float:right;
+}
+
+/*		Share & Like Formatting
+--------------------------------------------------------------------------------------------------*/
+.twp-share {
+	float: right;
+}
+
+/*		More Link Links & Buttons
+--------------------------------------------------------------------------------------------------*/
+
+/*		Tabs
+--------------------------------------------------------------------------------------------------*/
+
+/*		Dropcaps
+--------------------------------------------------------------------------------------------------*/
+
+.dropcap:first-letter {
+	float: right;
+	padding: 4px 0 0 8px;
+}
+
+/*		WordPress Core
+--------------------------------------------------------------------------------------------------*/
+
+/*right side widget area*/
+
+/*search*/
+
+/*calendar*/
+
+.widget-area #calendar_wrap #prev {
+	text-align: right;
+}
+
+.widget-area #calendar_wrap #next {
+	text-align: left;
+}
+
+/*		Blog Image
+--------------------------------------------------------------------------------------------------*/
+
+/*		Widgets
+--------------------------------------------------------------------------------------------------*/
+
+.widget-area ul li:before {
+	left: 0;
+	right: auto;
+}
+
+.widget-area ul.children li {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+/* Table */
+
+/* Captions */
+
+/*paser paginaton,breadcrumbs*/
+
+ul.breadcrumb {
+	text-align: left;
+}
+
+/*		Slider
+--------------------------------------------------------------------------------------------------*/
+
+#main-slider .slider-inner {
+	right: 0;
+	left: auto;
+}
+
+#main-slider .owl-prev {
+	right: -35px;
+	left: auto;
+}
+
+#main-slider .owl-next {
+	left: -35px;
+	right: auto;
+}
+
+.slider-overlay::before {
+	right: 50%;
+	margin-right: -12px;
+	left: auto;
+	margin-left: auto;
+}
+
+.slider-overlay, .slider-bg-overlay {
+	right: 0;
+	left: 0;
+}
+
+#main-slider .carousel-content {
+	right: 10%;
+	left: auto;
+}
+
+/*		Testimonial
+--------------------------------------------------------------------------------------------------*/
+
+/*		Call to Action
+--------------------------------------------------------------------------------------------------*/
+
+/*		Portfolio
+--------------------------------------------------------------------------------------------------*/
+
+/*		Visual Composer Fix
+--------------------------------------------------------------------------------------------------*/
+
+.upb_video-bg, .upb_video-bg utube {
+	right: 0 !important;
+	left: auto;
+}
+
+/*		Dividers
+--------------------------------------------------------------------------------------------------*/
+
+/*download btn*/
+
+/* admin bar */
+
+/*		Responsive Menu
+--------------------------------------------------------------------------------------------------*/
+
+/*		Responsive Menu
+--------------------------------------------------------------------------------------------------*/
+
+.header-center .navbar-toggle {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.header-center .nav > li {
+	text-align: right;
+}
+
+.navbar-toggle {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+/*		Bottom
+--------------------------------------------------------------------------------------------------*/
+ul#menu-company-menu {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+ul#menu-company-menu li:before {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*	Media Queries - For mobile devices and tablets */
+
+/*		Tablet Layout: 768px.
+--------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+/* Mobile Layout: 320px.
+--------------------------------------------------------------------------------------------------*/
+@media(max-width:767px) {
+
+.header-center .nav > li {
+	text-align: right;
+}
+
+.navbar-toggle {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+/*		Bottom
+--------------------------------------------------------------------------------------------------*/
+ul#menu-company-menu {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+ul#menu-company-menu li:before {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*	Media Queries - For mobile devices and tablets */
+
+/*		Tablet Layout: 768px.
+--------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) 
+}
+
+/* Body Style */
+
+/* Heading Style */
+
+/*Link Color*/
+
+/*Link Hover Color*/
+
+/* Top Header Style */
+
+/* Top Header Link Color */
+
+/* Top Header Link Hover Color */
+
+/* Text Logo */
+
+/* Text Logo */
+
+/* Navbar Style */
+
+/* Current Menu Item */
+
+/* Child Menu Items */
+
+/* Child Menu Items Hover */
+
+/* Sub Header Style */
+
+/* Sub Header Link Style */
+
+/* Footer Main and Bottom Style */
+
+/* Footer Main Border */
+
+/* To Top Style */
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */
